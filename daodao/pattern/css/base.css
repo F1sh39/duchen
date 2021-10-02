@@ -1,0 +1,33 @@
+/* 初始化css */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: crimson!important;
+}
+
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+
+em,i{
+    font-style: normal;
+}

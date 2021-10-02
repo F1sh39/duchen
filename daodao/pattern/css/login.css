@@ -1,0 +1,319 @@
+/* 头部logo制作 */
+
+.none {
+    display: none;
+}
+
+.logo {
+    margin: 20px 0 25px 50px;
+    width: 250px;
+    height: 90px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/logo.jpg) no-repeat;
+    background-size: 100% 100%;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+
+/* 登录模块制作 */
+
+.login {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background: url(../../images/登录背景.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.login .ww {
+    position: absolute;
+    top: 50%;
+    right: 220px;
+    transform: translateY(-50%);
+    width: 370px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.login .ww .mima {
+    width: 360px;
+    height: 260px;
+}
+
+
+/* 账号密码登录模块 */
+
+
+/* 1.左上角状态切换 */
+
+a:link {
+    text-decoration: none!important;
+}
+
+.bottom-current {
+    border-bottom: 5px solid black;
+}
+
+.login .ww .top {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "黑体";
+    margin: 30px 0 14px 0;
+    padding-left: 50px;
+}
+
+.login .wwUmane .top-pwd a {
+    float: left;
+    color: black;
+    margin-right: 15px;
+}
+
+.login .wwUmane .top-pwd a:hover {
+    text-decoration: none;
+}
+
+
+/* 2.右上角扫码部分 */
+
+.login .wwUmane .ww-saoma {
+    position: absolute;
+    display: flex;
+    right: 5px;
+    top: 5px;
+    height: 20px;
+}
+
+.login .wwUmane .ww-saoma p {
+    width: 130px;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+    user-select: none;
+    -webkit-user-select: none;
+    color: orange;
+    border: 1px solid rgb(255, 73, 73);
+    margin: 0;
+}
+
+.login .wwUmane .ww-saoma i {
+    position: absolute;
+    top: 10px;
+    right: 53px;
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid crimson;
+    border-top: 1px solid crimson;
+    border-bottom: 1px solid transparent;
+    background-color: #fff;
+    z-index: 9999;
+    transform: rotate(45deg);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.login .wwUmane .ww-saoma div {
+    position: absolute;
+    right: 13px;
+    top: 12px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid #fff;
+    z-index: 9988;
+    transform: rotate(-135deg);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.login .wwUmane .ww-saoma span {
+    font-size: 52px;
+    line-height: 52px;
+    cursor: pointer;
+    color: crimson;
+    margin-left: 6px;
+}
+
+
+/* 3.登录表单框 */
+
+.login .wwUmane form {
+    width: 360px;
+    height: 300px;
+}
+
+.login .wwUmane form .name,
+.login .wwUmane form .paswd {
+    position: relative;
+    width: 262px;
+    height: 52px;
+    margin: 0 0 30px 50px;
+    border: 1px solid #ccc;
+}
+
+.login .wwUmane form input:visited {
+    border: 0;
+}
+
+.login .wwUmane form .name label,
+.login .wwUmane form .paswd label {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 48px;
+    height: 48px;
+    background-color: #555;
+    margin: 0;
+}
+
+.login .wwUmane form .name label i,
+.login .wwUmane form .paswd label i {
+    text-align: center;
+    line-height: 47px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.login .wwUmane form input {
+    width: 260px;
+    height: 50px;
+    outline: none;
+    padding-left: 60px;
+}
+
+.login .wwUmane form .paswd a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    color: #333;
+    font-size: 12px;
+}
+
+.login .wwUmane form .btn {
+    border-radius: 7px;
+    background-color: rgb(235, 78, 78);
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.login .wwUmane form ul {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px 0 0;
+    justify-content: center;
+}
+
+.login .wwUmane form ul li {
+    margin: 0 10px;
+}
+
+.login .wwUmane form ul li a {
+    font-size: 12px;
+    color: #666;
+}
+
+.login .wwUmane form ul li a:hover {
+    text-decoration: none;
+    color: #666!important;
+}
+
+
+/* 二维码扫码登录模块 */
+
+.login .wwMa .top-Sao {
+    padding: 0;
+    line-height: 50px;
+}
+
+.login .wwMa .top-Sao p {
+    margin: 0;
+    height: 100%;
+}
+
+.login .wwMa .ww-computer {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    width: 52px;
+    height: 61px;
+    cursor: pointer;
+}
+
+.login .wwMa .ww-computer div {
+    position: absolute;
+    right: 14px;
+    top: 20px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid #fff;
+    z-index: 9988;
+    transform: rotate(-135deg);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.login .wwMa .ww-computer span {
+    font-size: 54px;
+    color: crimson;
+}
+
+.login .wwMa .ww-ma {
+    width: 170px;
+    height: 170px;
+    margin: 10px auto;
+}
+
+.login .wwMa .ww-ma img {
+    width: 100%;
+    height: 100%;
+}
+
+.login .wwMa ul {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px 0 0;
+    justify-content: center;
+}
+
+.login .wwMa ul li {
+    margin: 0 10px;
+}
+
+.login .wwMa ul li a {
+    font-size: 12px;
+    color: #666;
+}
+
+.login .wwMa ul li a:hover {
+    text-decoration: none;
+    color: #666!important;
+}
