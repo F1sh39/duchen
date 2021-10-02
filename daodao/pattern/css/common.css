@@ -1,0 +1,55 @@
+/* 公共样式css */
+
+/* 顶部快捷导航栏模块 */
+.shortcut{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: rgb(233, 233, 233);
+}
+.shortcut .left{
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-left: 35px;
+}
+.shortcut .left a{
+    color: rgb(252, 57, 57);
+    margin-left: 15px;
+    text-decoration: none;
+}
+.shortcut .right{
+    float: right;
+    width: 830px;
+    height: 30px;
+}
+.shortcut .right ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.shortcut .right ul li{
+    float: left;
+    margin: 0 5px 0 25px;
+}
+.shortcut .right ul li a{
+    border-right: 1px solid #555;
+    padding-right: 25px;
+    color: #333;
+    text-decoration: none;
+}
+.shortcut .right ul li:last-child a{
+    border: 0;
+}
+.shortcut .right ul .shopcar{
+    display: block;
+    height: 16px;
+}
+.shortcut .right ul .shopcar:hover span{
+    color: crimson;
+}
+.shortcut .right ul .shopcar a{
+    padding-left: 6px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="pattern/css/login.css">
+    <!-- 引入初始化样式 -->
+    <link rel="stylesheet" href="pattern/css/base.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="pattern/css/common.css">
+    <!-- 引入bootstarp -->
+    <link rel="stylesheet" href="pattern/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- logo制作 -->
+    <div class="w">
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="秒杀商城">秒杀商城</a>
+            </h1>
+        </div>
+    </div>
+    <!-- 1.输入型登录框制作 -->
+    <div class="login">
+        <!-- 1.0、表单上面选项 -->
+        <div class="ww wwUmane">
+            <div class="top top-pwd">
+                <a href="javascript:;" class="bottom-current number">密码登录</a>
+                <a href="javascript:;" class="phone">短信登录</a>
+            </div>
+            <div class="no"></div>
+            <div class="ww-saoma">
+                <p>扫码登录更安全哦</p>
+                <i></i>
+                <div></div>
+                <span class="myMa glyphicon glyphicon-qrcode"></span>
+            </div>
+            <!-- 1.1、账号密码登录框 -->
+            <form class="userName" action="index.html">
+                <div class="mima">
+                    <div class="name">
+                        <label>
+                        <i class="user glyphicon glyphicon-user" title="用户名"></i>
+                    </label>
+                        <input type="text" class="usertxt txt" placeholder="会员名 / 手机 / 邮箱">
+                    </div>
+                    <div class="paswd">
+                        <label>
+                        <i class="user glyphicon glyphicon-lock" title="用户名"></i>
+                    </label>
+                        <input type="password" class="userpwd pwd" placeholder="请输入登录密码">
+                    </div>
+                    <input type="submit" class="btn" value="登录">
+                    <ul>
+                        <li><a href="javascript:;">忘记密码</a></li>
+                        <li><a href="javascript:;" class="ww-login">免费注册</a></li>
+                    </ul>
+                </div>
+            </form>
+            <!-- 1.2、手机验证码登录框 -->
+            <form class="userPhone none" action="index.html">
+                <div class="mima">
+                    <div class="name">
+                        <label>
+                            <i class="user glyphicon glyphicon-earphone" title="请输入手机号"></i>
+                        </label>
+                        <input type="text" class="phonetxt txt" placeholder="请输入手机号">
+                    </div>
+                    <div class="paswd">
+                        <label>
+                            <i class="user glyphicon glyphicon-envelope" title="请输入验证码"></i>
+                        </label>
+                        <input type="password" class="phonepwd pwd" placeholder="请输入验证码">
+                        <a href="javascript:;" class="phoneCode">获取验证码</a>
+                    </div>
+                    <input type="button" class="btn" value="登录">
+                    <ul>
+                        <li><a href="javascript:;">忘记密码</a></li>
+                        <li><a href="javascript:;" class="ww-login">免费注册</a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <!-- 2.扫码型登录框制作 -->
+        <div class="ww wwMa none">
+            <div class="top top-Sao">
+                <p>手机打开APP 扫码登录</p>
+            </div>
+            <div class="ww-computer">
+                <div></div>
+                <span class="glyphicon glyphicon-blackboard"></span>
+            </div>
+            <div class="ww-ma">
+                <img src="images/扫码登录.jpg" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="javascript:;">密码登录</a>
+                </li>
+                <li><a href="javascript:;" class="ww-login">免费注册</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="pattern/js/login.js"></script>
+
+</html>
